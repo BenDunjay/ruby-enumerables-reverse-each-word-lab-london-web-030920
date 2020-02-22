@@ -6,5 +6,5 @@ def reverse_each_word(sentence)
   new_string.collect{ |str| str.reverse!}
   
   new_string.join(" ")
-  binding.pry
+  
 end 
